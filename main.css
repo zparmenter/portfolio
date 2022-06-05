@@ -32,7 +32,7 @@ header {
     flex-direction: row;
     justify-content: space-between;    
     align-items: center;
-    background-color: skyblue;
+    background-color: rgb(46, 141, 214);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     color: black;
@@ -51,6 +51,12 @@ header {
     margin: 10px;
 }
 
+#aboutMe {
+    background: rgb(240, 240, 243);
+    margin-top: none;
+    margin-bottom: 50px;
+}
+
 .aboutMe {
     display: flex;
     flex-direction: column;
@@ -58,9 +64,9 @@ header {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 10px;
-    border: 3px solid skyblue;
     margin: 10px;
 }
 
@@ -69,9 +75,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    border: 3px solid skyblue;
-    margin: 10px;
 }
 
 .technologyGrid {
@@ -82,7 +85,7 @@ header {
 
 .techGridItem {
     display:flex;
-    font-size: 32px;
+    font-size: 24px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -100,11 +103,9 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
-    border-radius: 10px;
-    border: 3px solid skyblue;
+    background: rgb(240, 240, 243);
 }
 
 .projects-header {
@@ -127,11 +128,11 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: skyblue;
+    background-color: rgb(46, 141, 214);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    padding-top: 20px;
     padding-bottom: 50px;
-    margin-top: 50px;
 }
 
 
@@ -184,6 +185,7 @@ header {
 
     .technologyGrid {
         grid-template-columns: 1fr 1fr;
+        padding-left: 5px;
     }
 
     .header {
